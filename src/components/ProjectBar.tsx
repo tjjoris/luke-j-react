@@ -1,13 +1,14 @@
 import ProjectCategory from "./ProjectCategory";
 import "../assets/css/project-bar.css";
-export default function ProjectBar() {
+export default function ProjectBar({ setCategory }: { setCategory: (category: string) => void }) {
     return (
         <div className="project-bar">
-            <ProjectCategory name="React/Front-End" />
-            <ProjectCategory name="Games" />
-            <ProjectCategory name="Experimental Games" />
-            <ProjectCategory name="Other" />
-            <ProjectCategory name="Back-End" />
+            <ProjectCategory name="React/Front-end" setCategory={setCategory} />
+            <ProjectCategory name="Back-end" setCategory={setCategory} />
+            <ProjectCategory name="Games" setCategory={setCategory} />
+            <ProjectCategory name="Experimental Games" setCategory={setCategory} />
+            <ProjectCategory name="Other" setCategory={setCategory} />
+
         </div>
     )
 }
