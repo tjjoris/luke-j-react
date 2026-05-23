@@ -1,4 +1,5 @@
 import NavItem from "./NavItem";
+import '../assets/css/nav-bar.css';
 
 export default function MainNavBar() {
     return (

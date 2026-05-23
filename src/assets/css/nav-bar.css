@@ -1,0 +1,35 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainNavBar {
+    padding: 1rem;
+    background-color: RGB(50, 35, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainNavBar ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.mainNavBar a {
+    color: RGB(118, 108, 137);
+    text-decoration: none;
+}
+
+
+.mainNavBar a:hover {
+    color: rgb(163, 156, 176);
+}
+
+.mainNavBar a:active {
+    color: white;
+}
