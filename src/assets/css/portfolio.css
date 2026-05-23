@@ -1,6 +1,7 @@
 .portfolio {
     display: flex;
     flex-direction: column;
+    scroll-margin-top: 3.5rem;
 }
 
 .portfolio h3 {

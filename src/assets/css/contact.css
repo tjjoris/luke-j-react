@@ -1,6 +1,7 @@
 .contact {
     background-color: rgb(96, 63, 163);
     padding: 3rem;
+    scroll-margin-top: 3.5rem;
 }
 
 .contact h3 {
