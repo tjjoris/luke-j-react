@@ -1,0 +1,20 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    height: 40dvh;
+    overflow: hidden;
+}
+
+.project-image {
+    width: 40dvw;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    flex-shrink: 0;
+    display: block;
+}
