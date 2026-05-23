@@ -1,0 +1,37 @@
+{
+    "projects": [
+        {
+            "name": "Loom By Light",
+            "description": "Arduino Appplication to assist with manual loom production of custom patterns.",
+            "demo": null,
+            "image": "loomByLightImage",
+            "moreInfo": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
+            "gitHub": "https://github.com/tjjoris/loom_by_light",
+            "categories": [
+                "Other"
+            ]
+        },
+        {
+            "name": "Fuzzy Kittens",
+            "description": "Web forums for cat lovers.",
+            "demo": null,
+            "image": "fuzzyKittensImage",
+            "moreInfo": "A group project at Algonquin College, I was the group leader and in charge of all of the back end.",
+            "gitHub": "https://github.com/tjjoris/loom_by_light",
+            "categories": [
+                "Back-end"
+            ]
+        },
+        {
+            "name": "A Science of Realms",
+            "description": "An award winning platformer game ",
+            "demo": "https://tarsin.itch.io/scienceofrealms",
+            "image": "aScienceOfRealmsImage",
+            "moreInfo": "stuff here",
+            "gitHub": "https://github.com/tjjoris/DEP_GoedWareJam",
+            "categories": [
+                "Games"
+            ]
+        }
+    ]
+}
