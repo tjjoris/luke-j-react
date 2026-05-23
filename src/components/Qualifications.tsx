@@ -17,7 +17,7 @@ export default function Qualifications() {
     ]
 
     return (
-        <div className="qualifications">
+        <div className="qualifications" id="qualifications">
             <h3>Qualifications</h3>
             <p>With a Strong set of attributes, I would make an excellent asset to any software or web company.</p>
             <div className="qualifications-grid" >

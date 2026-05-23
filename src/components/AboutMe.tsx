@@ -4,7 +4,7 @@ import ActionRoundedButton from "./ActionRoundedButton";
 
 export default function AboutMe({ action }: { action: () => void }) {
     return (
-        < div className="about-me" >
+        < div className="about-me" id="about-me">
             <h1 >Luke Johnson</h1>
             <p>I'm a recent Graduate from Algonquin College Computer Programming,
                 with a strong passion for software and web development.</p>
