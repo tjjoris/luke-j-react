@@ -1,4 +1,5 @@
 import '../assets/css/about-me.css';
+import "../assets/css/button.css";
 
 export default function AboutMe() {
     return (
