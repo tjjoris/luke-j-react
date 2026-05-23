@@ -1,0 +1,13 @@
+.about-me {
+    background-color: rgb(96, 63, 163);
+    margin: 0;
+}
+
+.about-me h1 {
+    color: white;
+    margin: 0;
+}
+
+.about-me p {
+    color: rgb(183, 168, 214);
+}

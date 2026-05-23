@@ -1,3 +1,5 @@
+import '../assets/css/about-me.css';
+
 export default function AboutMe() {
     return (
         < div className="about-me" >
