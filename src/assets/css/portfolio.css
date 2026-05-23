@@ -27,10 +27,9 @@
     padding: 2rem;
 }
 
-.project-actions {
+.project-buttons {
     display: flex;
     gap: 1rem;
-    margin-top: 1.5rem;
 }
 
 .project-image {

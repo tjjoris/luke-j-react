@@ -18,10 +18,15 @@ export default function Portfolio() {
             <NewWindowRoundedButton text="Demo" link="./" />
         )
     }
+    const lblInfoButton = () => {
+        return (
+            <RoundedButton text="Learn More" link="./" />
+        )
+    }
 
     return (
         <div className="portfolio">
-            <Project imageUrl={loomByLightImage} title="Loom by Light" description="LBL project." backgroundColor="rgb(80, 80, 178)" DemoButton={null} LearnMoreButton={lBlDemoButton} />
+            <Project imageUrl={loomByLightImage} title="Loom by Light" description="LBL project." backgroundColor="rgb(80, 80, 178)" DemoButton={lBlDemoButton} LearnMoreButton={lblInfoButton} />
             <Project imageUrl={fuzzyKittensImage} title="Fuzzy Kittens" description="A cool project." backgroundColor="rgb(76, 76, 179)" DemoButton={null} LearnMoreButton={fuzzyKittensInfoButton} />
             <Project imageUrl={aScienceOfRealmsImage} title="A Science of Realms" description="Award winning game" backgroundColor="rgb(72, 72, 160)" DemoButton={null} LearnMoreButton={null} />
         </div>
