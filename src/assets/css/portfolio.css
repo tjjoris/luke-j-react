@@ -3,11 +3,34 @@
     flex-direction: column;
 }
 
+.portfolio h3 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.portfolio p {
+    color: rgb(174, 174, 216);
+    font-size: 1.1rem;
+}
+
 .project {
     display: flex;
     flex-direction: row;
     height: 40dvh;
     overflow: hidden;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.project-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 .project-image {
