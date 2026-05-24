@@ -4,6 +4,7 @@ import RoundedButton from "./RoundedButton";
 import { type LearnMore } from "../types/learnMore";
 import { useContext } from "react";
 import { PopupContext } from "../contexts/popupContext";
+import ActionRoundedButton from "./ActionRoundedButton";
 
 
 
@@ -27,7 +28,8 @@ export default function Project({ imageUrl, title, description, backgroundColor,
                 <p className="project-description"> {description} </p>
                 <div className="project-buttons">
                     {DemoButton && <DemoButton />}
-                    {/* {LearnMore && <LearnMoreButton />} */}
+                    {LearnMore && <ActionRoundedButton text="Learn More" action={() => popupContext?.setPopup(LearnMore)} />}
+
                 </div>
             </div>
         </div>
