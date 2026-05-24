@@ -2,12 +2,12 @@
     "projects": [
         {
             "name": "Loom By Light",
-            "description": "Arduino Appplication to assist with manual loom production of custom patterns.",
+            "description": "Arduino Application to assist with manual loom production of custom patterns.",
             "demo": null,
             "image": "/images/loom-by-light.jpg",
             "learnMore": {
                 "name": "Loom by Light",
-                "info": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
+                "info": "Loom by Light was a freelance project commissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos. It allos converting of bitmap images into rows of LED lights for weaving on a custom manual loom.",
                 "links": [
                     {
                         "name": "GitHub",
@@ -28,45 +28,41 @@
             "demo": null,
             "image": "/images/fuzzy-kittens-login.png",
             "learnMore": {
-                "name": "Loom by Light",
-                "info": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
+                "name": "Fuzzy Kittens",
+                "info": "Fuzzy Kittens was a group project for Algonquin College Computer Programming. I was the group leader and developed all of the back end, enabling CRUD operations for a message board. The back end was written in PHP.",
                 "links": [
                     {
                         "name": "GitHub",
-                        "url": "https://github.com/tjjoris/loom_by_light"
+                        "url": "https://github.com/tjjoris/L2-Web-Assignment2"
                     }
                 ]
             },
             "links": [
-                {
-                    "name": "GitHub",
-                    "url": "https://github.com/tjjoris/loom_by_light"
-                }
+                null
             ],
             "categories": [
                 "Back-end"
             ]
         },
         {
-            "name": "A Science of Realms",
+            "name": "Science of Realms",
             "description": "An award winning platformer game ",
             "demo": "https://tarsin.itch.io/scienceofrealms",
             "image": "/images/science-of-realms-cover-image2.png",
             "learnMore": {
-                "name": "Loom by Light",
-                "info": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
+                "name": "Science of Realms",
+                "info": "Find your way home by teleporting between realms, but beware of traps and enemies. This Game Jam entry was developed in Godot and won an award for its excellent artwork. I was a developer on the 6 person team.",
                 "links": [
                     {
                         "name": "GitHub",
-                        "url": "https://github.com/tjjoris/loom_by_light"
+                        "url": "https://github.com/tjjoris/DEP_GoedWareJam"
                     }
                 ]
             },
-            "moreInfo": "stuff here",
             "links": [
                 {
-                    "name": "GitHub",
-                    "url": "https://github.com/tjjoris/DEP_GoedWareJam"
+                    "name": "Demo",
+                    "url": "https://tarsin.itch.io/scienceofrealms"
                 }
             ],
             "categories": [
@@ -75,31 +71,82 @@
         },
         {
             "name": "User Catalogue",
-            "description": "Front end and back end seperate.",
-            "demo": "https://tarsin.itch.io/scienceofrealms",
-            "image": "/images/science-of-realms-cover-image2.png",
+            "description": "Program for creating, editing, and deleting user profiles. uses Laravel RESTful back-end API, and separate React front-end.",
+            "demo": "https://demo2-front-end.luke-j.com/",
+            "image": "/images/full-stack-REST.png",
             "learnMore": {
-                "name": "Loom by Light",
-                "info": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
+                "name": "User Catalogue",
+                "info": "This Project has a separate back end and back end, allowing future deployment of front end on different platforms. The repository features user authentication utilizing both session based for the web based front end, and token based for RESTful API’s.",
                 "links": [
                     {
-                        "name": "GitHub",
-                        "url": "https://github.com/tjjoris/loom_by_light"
+                        "name": "GitHub Front End",
+                        "url": "https://github.com/tjjoris/demo2-react-front-end"
+                    },
+                    {
+                        "name": "GitHub Back End",
+                        "url": "https://github.com/tjjoris/demo2-laravel-rest-back-end"
                     }
                 ]
             },
             "links": [
                 {
-                    "name": "GitHub Front End",
-                    "url": "https://github.com/tjjoris/DEP_GoedWareJam"
-                },
-                {
-                    "name": "GitHub Back End",
-                    "url": "https://github.com/tjjoris/DEP_GoedWareJam"
+                    "name": "Demo",
+                    "url": "https://demo2-front-end.luke-j.com/"
                 }
             ],
             "categories": [
-                "Top Games"
+                "Front-end",
+                "Back-end"
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "demo": "",
+            "image": "/images/",
+            "learnMore": {
+                "name": "",
+                "info": "",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": ""
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                ""
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "demo": "",
+            "image": "/images/",
+            "learnMore": {
+                "name": "",
+                "info": "",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": ""
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                ""
             ]
         }
     ]

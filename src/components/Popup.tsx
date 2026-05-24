@@ -10,9 +10,11 @@ export default function Popup({ learnMore }: { learnMore: LearnMore }) {
         <div className="popup">
             <h2>{learnMore.name}</h2>
             <p>{learnMore.info}</p>
-            {learnMore.links.map((link, index) => (
-                <ActionRoundedButton key={index} action={() => openLinkInNewTab(link.url)} text={link.name} />
-            ))}
+            <div className="popup-links">
+                {learnMore.links.map((link, index) => (
+                    <ActionRoundedButton key={index} action={() => openLinkInNewTab(link.url)} text={link.name} />
+                ))}
+            </div>
         </div>
     )
 }

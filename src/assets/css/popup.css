@@ -17,3 +17,9 @@
 .popup p {
     color: rgb(162, 156, 176);
 }
+
+.popup-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
