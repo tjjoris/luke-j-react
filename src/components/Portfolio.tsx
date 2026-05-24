@@ -1,10 +1,10 @@
 import Project from "./Project";
-import RoundedButton from "./RoundedButton";
-import NewWindowRoundedButton from "./NewWindowRoundedButton";
 import ProjectBar from "./ProjectBar";
 import { useState, useRef, useEffect } from "react";
 import projectsJson from "../assets/data/projects.json";
-
+import ActionRoundedButton from "./ActionRoundedButton";
+import { type LearnMore } from "../types/learnMore";
+import { openLinkInNewTab } from "../functions/openLinkInNewTab";
 
 export default function Portfolio() {
 
@@ -22,22 +22,6 @@ export default function Portfolio() {
         project.categories.includes(category));
     const backgroundColours: string[] = ["rgb(80, 80, 178)", "rgb(76, 76, 179)", "rgb(72, 72, 160)"]
 
-    const fuzzyKittensInfoButton = () => {
-        return (
-            <RoundedButton text="Learn More" link="./" />
-        )
-    }
-    const lBlDemoButton = () => {
-        return (
-            <NewWindowRoundedButton text="Demo" link="./" />
-        )
-    }
-    const lblInfoButton = () => {
-        return (
-            <RoundedButton text="Learn More" link="./" />
-        )
-    }
-
     return (
         <div className="portfolio" id="portfolio">
             <ProjectBar setCategory={setCategory} />
@@ -52,7 +36,8 @@ export default function Portfolio() {
                             description={project.description}
                             DemoButton={
                                 project.demo
-                                    ? () => <NewWindowRoundedButton text="Demo" link={project.demo} />
+                                    ? () =>
+                                        <ActionRoundedButton text="Demo" action={() => openLinkInNewTab(project.demo)} />
                                     : null
                             }
                             backgroundColor={backgroundColours[index % backgroundColours.length]}

@@ -6,7 +6,12 @@
             "demo": null,
             "image": "/images/loom-by-light.jpg",
             "moreInfo": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
-            "gitHub": "https://github.com/tjjoris/loom_by_light",
+            "gitHub": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/tjjoris/loom_by_light"
+                }
+            ],
             "categories": [
                 "Other"
             ]
@@ -17,7 +22,12 @@
             "demo": null,
             "image": "/images/fuzzy-kittens-login.png",
             "moreInfo": "A group project at Algonquin College, I was the group leader and in charge of all of the back end.",
-            "gitHub": "https://github.com/tjjoris/loom_by_light",
+            "gitHub": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/tjjoris/loom_by_light"
+                }
+            ],
             "categories": [
                 "Back-end"
             ]
@@ -28,7 +38,32 @@
             "demo": "https://tarsin.itch.io/scienceofrealms",
             "image": "/images/science-of-realms-cover-image2.png",
             "moreInfo": "stuff here",
-            "gitHub": "https://github.com/tjjoris/DEP_GoedWareJam",
+            "gitHub": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/tjjoris/DEP_GoedWareJam"
+                }
+            ],
+            "categories": [
+                "Top Games"
+            ]
+        },
+        {
+            "name": "User Catalogue",
+            "description": "Front end and back end seperate.",
+            "demo": "https://tarsin.itch.io/scienceofrealms",
+            "image": "/images/science-of-realms-cover-image2.png",
+            "moreInfo": "stuff here",
+            "gitHub": [
+                {
+                    "name": "GitHub Front End",
+                    "url": "https://github.com/tjjoris/DEP_GoedWareJam"
+                },
+                {
+                    "name": "GitHub Back End",
+                    "url": "https://github.com/tjjoris/DEP_GoedWareJam"
+                }
+            ],
             "categories": [
                 "Top Games"
             ]

@@ -1,6 +1,7 @@
 import type { ComponentType } from "react";
 import "../assets/css/portfolio.css"
 import RoundedButton from "./RoundedButton";
+import { type LearnMore } from "../types/learnMore";
 
 
 type PrivateProps = {
@@ -9,10 +10,10 @@ type PrivateProps = {
     description: string
     backgroundColor: string
     DemoButton: React.ComponentType | null
-    LearnMoreButton: null | React.ComponentType
+    LearnMore: null | LearnMore
 }
 
-export default function Project({ imageUrl, title, description, backgroundColor, DemoButton, LearnMoreButton }: PrivateProps) {
+export default function Project({ imageUrl, title, description, backgroundColor, DemoButton, LearnMore }: PrivateProps) {
 
 
     return (
@@ -23,7 +24,7 @@ export default function Project({ imageUrl, title, description, backgroundColor,
                 <p className="project-description"> {description} </p>
                 <div className="project-buttons">
                     {DemoButton && <DemoButton />}
-                    {LearnMoreButton && <LearnMoreButton />}
+                    {LearnMore && <LearnMoreButton />}
                 </div>
             </div>
         </div>
