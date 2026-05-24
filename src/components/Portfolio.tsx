@@ -5,18 +5,24 @@ import projectsJson from "../assets/data/projects.json";
 import ActionRoundedButton from "./ActionRoundedButton";
 import { type LearnMore } from "../types/learnMore";
 import { openLinkInNewTab } from "../functions/openLinkInNewTab";
+import { useContext } from "react";
+import { PopupContext } from "../contexts/popupContext";
+import { type ProjectData } from "../types/projectData";
 
 export default function Portfolio() {
 
-    type ProjectData = {
-        name: string;
-        description: string;
-        demo: string | null;
-        image: string;
-        moreInfo: string;
-        gitHub: string;
-        categories: string[];
-    }
+    // type ProjectData = {
+    //     name: string;
+    //     description: string;
+    //     demo: string | null;
+    //     image: string;
+    //     learnMore: LearnMore | null;
+    //     gitHub: string;
+    //     categories: string[];
+    // }
+    //popup context
+    const popupContext = useContext(PopupContext);
+
     const [category, setCategory] = useState("React/Front-end");
     const filteredProjects = projectsJson.projects.filter((project) =>
         project.categories.includes(category));
@@ -41,7 +47,7 @@ export default function Portfolio() {
                                     : null
                             }
                             backgroundColor={backgroundColours[index % backgroundColours.length]}
-                            LearnMore={null} />
+                            LearnMore={project.learnMore} />
                     )
                 })}
             {/* })} */}

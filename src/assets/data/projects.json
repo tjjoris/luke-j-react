@@ -5,12 +5,18 @@
             "description": "Arduino Appplication to assist with manual loom production of custom patterns.",
             "demo": null,
             "image": "/images/loom-by-light.jpg",
-            "moreInfo": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
+            "learnMore": {
+                "name": "Loom by Light",
+                "info": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/tjjoris/loom_by_light"
+                    }
+                ]
+            },
             "links": [
-                {
-                    "name": "GitHub",
-                    "url": "https://github.com/tjjoris/loom_by_light"
-                }
+                null
             ],
             "categories": [
                 "Other"
@@ -21,7 +27,16 @@
             "description": "Web forums for cat lovers.",
             "demo": null,
             "image": "/images/fuzzy-kittens-login.png",
-            "moreInfo": "A group project at Algonquin College, I was the group leader and in charge of all of the back end.",
+            "learnMore": {
+                "name": "Loom by Light",
+                "info": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/tjjoris/loom_by_light"
+                    }
+                ]
+            },
             "links": [
                 {
                     "name": "GitHub",
@@ -37,6 +52,16 @@
             "description": "An award winning platformer game ",
             "demo": "https://tarsin.itch.io/scienceofrealms",
             "image": "/images/science-of-realms-cover-image2.png",
+            "learnMore": {
+                "name": "Loom by Light",
+                "info": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/tjjoris/loom_by_light"
+                    }
+                ]
+            },
             "moreInfo": "stuff here",
             "links": [
                 {
@@ -53,7 +78,16 @@
             "description": "Front end and back end seperate.",
             "demo": "https://tarsin.itch.io/scienceofrealms",
             "image": "/images/science-of-realms-cover-image2.png",
-            "moreInfo": "stuff here",
+            "learnMore": {
+                "name": "Loom by Light",
+                "info": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/tjjoris/loom_by_light"
+                    }
+                ]
+            },
             "links": [
                 {
                     "name": "GitHub Front End",
