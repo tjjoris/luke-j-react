@@ -1,7 +1,7 @@
 import Project from "./Project";
-import loomByLightImage from "../assets/images/loom-by-light.jpg";
-import fuzzyKittensImage from "../assets/images/fuzzy-kittens-login.png"
-import aScienceOfRealmsImage from "../assets/images/science-of-realms-cover-image2.png"
+// import loomByLightImage from "../assets/images/loom-by-light.jpg";
+// import fuzzyKittensImage from "../assets/images/fuzzy-kittens-login.png"
+// import aScienceOfRealmsImage from "../assets/images/science-of-realms-cover-image2.png"
 import RoundedButton from "./RoundedButton";
 import NewWindowRoundedButton from "./NewWindowRoundedButton";
 import ProjectBar from "./ProjectBar";
