@@ -5,7 +5,7 @@ export default function ProjectBar({ setCategory }: { setCategory: (category: st
         <div className="project-bar">
             <ProjectCategory name="React/Front-end" setCategory={setCategory} />
             <ProjectCategory name="Back-end" setCategory={setCategory} />
-            <ProjectCategory name="Games" setCategory={setCategory} />
+            <ProjectCategory name="Top Games" setCategory={setCategory} />
             <ProjectCategory name="Experimental Games" setCategory={setCategory} />
             <ProjectCategory name="Other" setCategory={setCategory} />
 

@@ -24,7 +24,8 @@ export default function Portfolio() {
     // const filteredProjects = useRef<ProjectData[]>([]);
     const filteredProjects = projectsJson.projects.filter((project) =>
         project.categories.includes(category));
-
+    const backgroundColours: string[] = ["rgb(80, 80, 178)", "rgb(76, 76, 179)", "rgb(72, 72, 160)"]
+    const colourCount = useRef(0);
 
     // useEffect(() => {
     //     filteredProjects.current = [];
@@ -56,9 +57,28 @@ export default function Portfolio() {
             {category}
             {filteredProjects.length}
             <ProjectBar setCategory={setCategory} />
-            <Project imageUrl={loomByLightImage} title="Loom by Light" description="LBL project." backgroundColor="rgb(80, 80, 178)" DemoButton={lBlDemoButton} LearnMoreButton={lblInfoButton} />
+
+            {
+
+                filteredProjects.map((project, index) => {
+                    return (
+                        < Project
+                            imageUrl={project.image}
+                            title={project.name}
+                            description={project.description}
+                            DemoButton={
+                                project.demo
+                                    ? () => <NewWindowRoundedButton text="Demo" link={project.demo} />
+                                    : null
+                            }
+                            backgroundColor={backgroundColours[index % backgroundColours.length]}
+                            LearnMoreButton={null} />
+                    )
+                })}
+            {/* })} */}
+            {/* <Project imageUrl={loomByLightImage} title="Loom by Light" description="LBL project." backgroundColor="rgb(80, 80, 178)" DemoButton={lBlDemoButton} LearnMoreButton={lblInfoButton} />
             <Project imageUrl={fuzzyKittensImage} title="Fuzzy Kittens" description="A cool project." backgroundColor="rgb(76, 76, 179)" DemoButton={null} LearnMoreButton={fuzzyKittensInfoButton} />
-            <Project imageUrl={aScienceOfRealmsImage} title="A Science of Realms" description="Award winning game" backgroundColor="rgb(72, 72, 160)" DemoButton={null} LearnMoreButton={null} />
+            <Project imageUrl={aScienceOfRealmsImage} title="A Science of Realms" description="Award winning game" backgroundColor="rgb(72, 72, 160)" DemoButton={null} LearnMoreButton={null} /> */}
         </div>
     )
 }
