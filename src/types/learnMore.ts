@@ -1,7 +1,7 @@
 export type LearnMore = {
     name: string,
     info: string,
-    gitHub: {
+    links: {
         name: string,
         url: string
     }[]

@@ -6,7 +6,7 @@
             "demo": null,
             "image": "/images/loom-by-light.jpg",
             "moreInfo": "Loom by Light was a freelance project comissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos, and allow converting of bitmap images into rows of LED lights for weaving on a manual loom.",
-            "gitHub": [
+            "links": [
                 {
                     "name": "GitHub",
                     "url": "https://github.com/tjjoris/loom_by_light"
@@ -22,7 +22,7 @@
             "demo": null,
             "image": "/images/fuzzy-kittens-login.png",
             "moreInfo": "A group project at Algonquin College, I was the group leader and in charge of all of the back end.",
-            "gitHub": [
+            "links": [
                 {
                     "name": "GitHub",
                     "url": "https://github.com/tjjoris/loom_by_light"
@@ -38,7 +38,7 @@
             "demo": "https://tarsin.itch.io/scienceofrealms",
             "image": "/images/science-of-realms-cover-image2.png",
             "moreInfo": "stuff here",
-            "gitHub": [
+            "links": [
                 {
                     "name": "GitHub",
                     "url": "https://github.com/tjjoris/DEP_GoedWareJam"
@@ -54,7 +54,7 @@
             "demo": "https://tarsin.itch.io/scienceofrealms",
             "image": "/images/science-of-realms-cover-image2.png",
             "moreInfo": "stuff here",
-            "gitHub": [
+            "links": [
                 {
                     "name": "GitHub Front End",
                     "url": "https://github.com/tjjoris/DEP_GoedWareJam"

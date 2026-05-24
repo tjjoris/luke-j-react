@@ -2,6 +2,9 @@ import type { ComponentType } from "react";
 import "../assets/css/portfolio.css"
 import RoundedButton from "./RoundedButton";
 import { type LearnMore } from "../types/learnMore";
+import { useContext } from "react";
+import { PopupContext } from "../contexts/popupContext";
+
 
 
 type PrivateProps = {
@@ -14,7 +17,7 @@ type PrivateProps = {
 }
 
 export default function Project({ imageUrl, title, description, backgroundColor, DemoButton, LearnMore }: PrivateProps) {
-
+    const popupContext = useContext(PopupContext);
 
     return (
         <div className="project" style={{ backgroundColor }}>
@@ -24,7 +27,7 @@ export default function Project({ imageUrl, title, description, backgroundColor,
                 <p className="project-description"> {description} </p>
                 <div className="project-buttons">
                     {DemoButton && <DemoButton />}
-                    {LearnMore && <LearnMoreButton />}
+                    {/* {LearnMore && <LearnMoreButton />} */}
                 </div>
             </div>
         </div>

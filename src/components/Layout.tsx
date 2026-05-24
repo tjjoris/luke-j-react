@@ -4,17 +4,20 @@ import MainNavBar from "./MainNavBar";
 import Popup from "./Popup";
 import Portfolio from "./Portfolio";
 import Qualifications from "./Qualifications";
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect, useContext } from "react";
+import { PopupContext } from "../contexts/popupContext";
+import { type LearnMore } from "../types/learnMore";
 
 export default function Layout() {
     const [navSection, setNavSection] = useState();
     const popupRef = useRef<HTMLDivElement | null>(null);
-    const [popup, setPopup] = useState<{ title: string, description: string } | null>(null);
+    const [popup, setPopup] = useState<LearnMore | null>(null);
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
             if (popupRef.current && !popupRef.current.contains(event.target as Node)) {
-                setPopup(null);
+                // setPopup(null);
+                useContext(PopupContext)
             }
         }
         document.addEventListener("mousedown", handleClickOutside);
@@ -24,16 +27,18 @@ export default function Layout() {
     }, []);
     return (
         <>
-            {popup && (
-                <div ref={popupRef} >
-                    <Popup title={popup.title} description={popup.description} />
-                </div>
-            )}
-            <MainNavBar />
-            <AboutMe action={() => setPopup({ title: "Popup Title", description: "This is a popup description." })} />
-            <Portfolio />
-            <Qualifications />
-            <Contact />
+            <PopupContext.Provider value={{ popup, setPopup }}>
+                {popup && (
+                    <div ref={popupRef} >
+                        <Popup learnMore={popup} />
+                    </div>
+                )}
+                <MainNavBar />
+                <AboutMe />
+                <Portfolio />
+                <Qualifications />
+                <Contact />
+            </PopupContext.Provider >
         </>
     )
 }

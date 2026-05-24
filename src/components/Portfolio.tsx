@@ -41,7 +41,7 @@ export default function Portfolio() {
                                     : null
                             }
                             backgroundColor={backgroundColours[index % backgroundColours.length]}
-                            LearnMoreButton={null} />
+                            LearnMore={null} />
                     )
                 })}
             {/* })} */}
