@@ -16,7 +16,7 @@ export default function Layout() {
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
             if (popupRef.current && !popupRef.current.contains(event.target as Node)) {
-                // setPopup(null);
+                setPopup(null);
                 useContext(PopupContext)
             }
         }
