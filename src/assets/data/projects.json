@@ -7,7 +7,7 @@
             "image": "/images/loom-by-light.jpg",
             "learnMore": {
                 "name": "Loom by Light",
-                "info": "Loom by Light was a freelance project commissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos. It allos converting of bitmap images into rows of LED lights for weaving on a custom manual loom.",
+                "info": "Loom by Light was a freelance project commissioned by a textile artist. The Arduino application was designed to run on low spec Arduinos. It converts bitmap images into rows of LED lights for tracking weaving on a custom manual loom.",
                 "links": [
                     {
                         "name": "GitHub",
@@ -207,60 +207,84 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Physio App",
+            "description": "Member of an AGILE team that developed a physiotherapy app for a client using Node.js and AWS.",
             "demo": "",
-            "image": "/images/",
+            "image": "images/physio-app-focus-area.png",
             "learnMore": {
-                "name": "",
-                "info": "",
-                "links": [
-                    {
-                        "name": "GitHub",
-                        "url": ""
-                    }
-                ]
+                "name": "Physio App",
+                "info": "This was the Capstone project for Algonquin College Computer Programming. Our team used agile practices for iterative development of the project. I was in charge of the back-end busieness logic.",
+                "links": []
             },
             "categories": [
-                ""
+                "Back-end"
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "New York Crash Statistics Data Analysis",
+            "description": "Identified key factors that contribute to car accidents in New York City using Rapid Miner data modeling.",
             "demo": "",
-            "image": "/images/",
+            "image": "images/ai-studio.png",
             "learnMore": {
-                "name": "",
-                "info": "",
-                "links": [
-                    {
-                        "name": "GitHub",
-                        "url": ""
-                    }
-                ]
+                "name": "New York Crash Statistics Data Analysis",
+                "info": "This was a group project for the Data Analysis and Business Intellegence course at Algonquin College. I was the group leader, and developed the Decision Tree and Random Forest data models, as well as merging the datasets together for analysis.",
+                "links": []
             },
             "categories": [
-                ""
+                "Other"
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Car sales app",
+            "description": "A Cross-Platform Flutter App for car sales, with multi-language support.",
             "demo": "",
-            "image": "/images/",
+            "image": "images/flutter-change-language-in-french.png",
             "learnMore": {
-                "name": "",
-                "info": "",
+                "name": "Car sales app",
+                "info": "This wsa a group project for Algonquin College Moblie App Development. I was the group leader, and in charge of developing the page for tracking and creating car sales.",
+                "links": []
+            },
+            "categories": [
+                "Front-end"
+            ]
+        },
+        {
+            "name": "3D Space Sim",
+            "description": "A Browser based mobile 3D space sim currently in active development. Built using Three.js, React, and TypeScript.",
+            "demo": "https://rechrysalis.com/three/TypeScript-space-sim/",
+            "image": "images/Three_space_sim.png",
+            "learnMore": {
+                "name": "3D Space Sim",
+                "info": "Control your ship in 3D space as you fly through the rings. This is my current passion project, and future plans involve Joystick support, customizable flight models, and more interesting game loops.",
                 "links": [
                     {
                         "name": "GitHub",
-                        "url": ""
+                        "url": "https://github.com/tjjoris/Three_Space_Sim_TypeScript"
                     }
                 ]
             },
             "categories": [
-                ""
+                "Top Games",
+                "Experimental Games"
+            ]
+        },
+        {
+            "name": "Spell Shields Linear",
+            "description": "A 2D game prototype built in React and TypeScript.",
+            "demo": "https://rechrysalis.com/SpellShieldsLinear/V1/",
+            "image": "images/spell-shields-linear.png",
+            "learnMore": {
+                "name": "Spell Shields Linear",
+                "info": "This game was intended to strech my abilities with React, and experiment with some ideas expading upon my previous passion project, \"Rechrysalis\".",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/tjjoris/react_spell_shields_linear_1"
+                    }
+                ]
+            },
+            "categories": [
+                "Experimental Games"
             ]
         },
         {
