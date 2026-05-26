@@ -1,6 +1,6 @@
 import NavItem from "./NavItem";
 import '../assets/css/nav-bar.css';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import MainNavBarSelected from "./MainNavBarSelected";
 
 export default function MainNavBar() {

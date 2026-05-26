@@ -1,6 +1,4 @@
-import type { ComponentType } from "react";
 import "../assets/css/portfolio.css"
-import RoundedButton from "./RoundedButton";
 import { type LearnMore } from "../types/learnMore";
 import { useContext } from "react";
 import { PopupContext } from "../contexts/popupContext";
