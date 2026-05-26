@@ -4,12 +4,8 @@ import { useState } from "react";
 import projectsJson from "../assets/data/projects.json";
 import ActionRoundedButton from "./ActionRoundedButton";
 import { openLinkInNewTab } from "../functions/openLinkInNewTab";
-// import { useContext } from "react";
-// import { PopupContext } from "../contexts/popupContext";
 
 export default function Portfolio() {
-
-    // const popupContext = useContext(PopupContext);
 
     const [category, setCategory] = useState("React/Front-end");
     const filteredProjects = projectsJson.projects.filter((project) =>
