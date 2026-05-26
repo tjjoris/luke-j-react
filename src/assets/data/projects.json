@@ -59,7 +59,7 @@
         },
         {
             "name": "Science of Realms",
-            "description": "An award winning platformer game built in Godot and GDScript.",
+            "description": "An award winning browser basedplatformer game built in Godot and GDScript.",
             "demo": "https://tarsin.itch.io/scienceofrealms",
             "image": "/images/science-of-realms-cover-image2.png",
             "learnMore": {
@@ -78,12 +78,12 @@
         },
         {
             "name": "User Catalogue",
-            "description": "Program for creating, editing, and deleting user profiles. uses Laravel RESTful back-end API, and separate React front-end.",
+            "description": "A browser based program tracking user profiles. uses Laravel RESTful back-end API, and separate React front-end.",
             "demo": "https://demo2-front-end.luke-j.com/",
             "image": "/images/full-stack-REST.png",
             "learnMore": {
                 "name": "User Catalogue",
-                "info": "This Project has a separate back end and back end, allowing future deployment of front end on different platforms. The repository features user authentication utilizing both session based for the web based front end, and token based for RESTful API’s.",
+                "info": "This Project features full CRUD operations, and has a separate back-end and front-end, allowing future deployment of front-end on different platforms. The repository features user authentication utilizing both session based for the web based front-end, and token based for RESTful API’s.",
                 "links": [
                     {
                         "name": "GitHub Front End",
@@ -102,7 +102,7 @@
         },
         {
             "name": "Message Board",
-            "description": "App allows users to post, edit, and delete messages. Uses Laravel and MySQL for back-end, with integrated React front-end.",
+            "description": "A browser based message board. Uses Laravel and MySQL for back-end, with integrated React front-end.",
             "demo": "https://demo1.luke-j.com/",
             "image": "images/full-stack-inertia.png",
             "learnMore": {
@@ -122,7 +122,7 @@
         },
         {
             "name": "Otherworldly Relics",
-            "description": "A puzzle based game built using Unity and C#.",
+            "description": "A browser based puzzle based game built using Unity and C#.",
             "demo": "https://tarsin.itch.io/otherworldly-relics",
             "image": "/images/otherworldly-relics-get-em.png",
             "learnMore": {
@@ -141,7 +141,7 @@
         },
         {
             "name": "Loop Destroyer",
-            "description": "A clicker game built in React and TypeScript.",
+            "description": "A browser based clicker game built in React and TypeScript.",
             "demo": "https://tjjoris.itch.io/loop-destroyer",
             "image": "/images/Loop-destroyer.png",
             "learnMore": {
@@ -161,12 +161,12 @@
         },
         {
             "name": "Spacelane Sweeper",
-            "description": "Clear the space lanes of debris in this 2D newtonian space sim, developed in Unity and C#.",
+            "description": "Clear the space lanes of debris in this browser based game, developed in Unity and C#.",
             "demo": "https://tarsin.itch.io/spacelane-sweeper",
             "image": "images/space-lane-sweeper-cover-image.png",
             "learnMore": {
                 "name": "Spacelane Sweeper",
-                "info": "This Game Jam entry features multiple tools for destroying debris, and a complex physics system.",
+                "info": "This Game Jam entry features 2D neutonian physics,multiple tools for destroying debris, and a complex physics system.",
                 "links": [
                     {
                         "name": "GitHub",
@@ -269,7 +269,7 @@
         },
         {
             "name": "3D Space Sim",
-            "description": "A Browser based mobile 3D space sim currently in active development. Built using Three.js, React, and TypeScript.",
+            "description": "A browser based mobile 3D space sim game currently in active development. Built using Three.js, React, and TypeScript.",
             "demo": "https://rechrysalis.com/three/TypeScript-space-sim/",
             "image": "images/Three_space_sim.png",
             "learnMore": {
@@ -289,7 +289,7 @@
         },
         {
             "name": "Spell Shields Linear",
-            "description": "A 2D game involving controlling range, and building units. React and TypeScript.",
+            "description": "A browser based 2D game involving controlling range, and building units. React and TypeScript.",
             "demo": "https://rechrysalis.com/SpellShieldsLinear/V1/",
             "image": "images/spell-shields-linear.png",
             "learnMore": {
@@ -309,7 +309,7 @@
         },
         {
             "name": "Rechrysalis",
-            "description": "A 2D game involving moving a hero unit, and building follower units to destory enemies. Buit in Unity and C#",
+            "description": "A browser based 2D game involving moving a hero unit, and building follower units to destory enemies. Buit in Unity and C#",
             "demo": "https://rechrysalis.com/V30014/",
             "image": "public/images/rechrysalis-screenshot.jpg",
             "learnMore": {
