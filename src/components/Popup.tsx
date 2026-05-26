@@ -15,9 +15,9 @@ export default function Popup({ learnMore }: { learnMore: LearnMore }) {
                     //check if learnmore links exist, if they do display button for each link.
                     learnMore.links &&
                     learnMore.links.map((link, index) => (
-                        link ? (
+                        link && (
                             <ActionRoundedButton key={index} action={() => openLinkInNewTab(link.url)} text={link.name} />
-                        ) : null
+                        )
                     ))}
             </div>
         </div>
