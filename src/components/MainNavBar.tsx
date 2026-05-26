@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import MainNavBarSelected from "./MainNavBarSelected";
 
 export default function MainNavBar() {
-    const [selectedCategory, setSelectedCategory] = useState<string>("portfolio");
+    const [selectedCategory, setSelectedCategory] = useState<string>("about-me");
     return (
         <section id="sidebar">
             <div className="mainNavBar">

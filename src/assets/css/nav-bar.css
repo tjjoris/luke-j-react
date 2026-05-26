@@ -28,9 +28,15 @@ ul {
 
 .mainNavBar ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
-    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.mainNavBar li {
+    flex: 1;
+    text-align: center;
 }
 
 .mainNavBar a {
