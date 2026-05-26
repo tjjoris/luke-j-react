@@ -1,5 +1,0 @@
-export default function RoundedButton({ text, link }: { text: string, link: string }) {
-    return (
-        <button className="button" onClick={() => { window.location.href = link }}>{text}</button>
-    )
-}
