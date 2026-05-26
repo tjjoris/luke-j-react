@@ -14,7 +14,7 @@ export default function Portfolio() {
 
     return (
         <div className="portfolio" id="portfolio">
-            <ProjectBar setCategory={setCategory} />
+            <ProjectBar setCategory={setCategory} category={category} />
 
             {
 
