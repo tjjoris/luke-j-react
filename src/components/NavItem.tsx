@@ -1,6 +1,6 @@
-export default function NavItem({ link, name }: { link: string, name: string }) {
+export default function NavItem({ link, name, setSelectedCategory }: { link: string, name: string, setSelectedCategory: (name: string) => void }) {
     return (
-        <li><a href={link}>{name}</a></li>
+        <li><a href={link} onClick={() => setSelectedCategory(name)}>{name}</a></li>
     )
 
 }
