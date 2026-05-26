@@ -59,7 +59,7 @@
         },
         {
             "name": "Science of Realms",
-            "description": "An award winning browser basedplatformer game built in Godot and GDScript.",
+            "description": "An award winning browser based platformer game built in Godot and GDScript.",
             "demo": "https://tarsin.itch.io/scienceofrealms",
             "image": "/images/science-of-realms-cover-image2.png",
             "learnMore": {
@@ -170,7 +170,7 @@
                 "links": [
                     {
                         "name": "GitHub",
-                        "url": ""
+                        "url": "https://github.com/tjjoris/-GameJamSummer2021"
                     }
                 ]
             },
@@ -212,7 +212,7 @@
             ]
         },
         {
-            "name": "Perscription Management Tool",
+            "name": "Prescription Management Tool",
             "description": "A Jakarta EE program that handles back-end CRUD RESTful API requests for prescription management.",
             "demo": "",
             "image": "images/Jakarta-EE-icon.png",
@@ -309,7 +309,7 @@
         },
         {
             "name": "Rechrysalis",
-            "description": "A browser based 2D game involving moving a hero unit, and building follower units to destory enemies. Buit in Unity and C#",
+            "description": "A browser based 2D game involving moving a hero unit, and building follower units to destroy enemies. Built in Unity and C#",
             "demo": "https://rechrysalis.com/V30014/",
             "image": "public/images/rechrysalis-screenshot.jpg",
             "learnMore": {

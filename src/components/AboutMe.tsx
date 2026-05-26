@@ -10,7 +10,7 @@ export default function AboutMe() {
     return (
         < div className="about-me" id="about-me">
             <h1 >Luke Johnson</h1>
-            <p>I'm a recent Graduate from Algonquin College Computer Programming,
+            <p>I'm a recent graduate from Algonquin College Computer Programming,
                 with a strong passion for software and web development.</p>
             <ActionRoundedButton text="Learn More" action={() => popupContext?.setPopup(aboutMe)} />
         </div >
