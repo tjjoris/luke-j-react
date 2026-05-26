@@ -4,5 +4,5 @@ export type LearnMore = {
     links: {
         name: string,
         url: string
-    }[]
+    }[] | null
 };

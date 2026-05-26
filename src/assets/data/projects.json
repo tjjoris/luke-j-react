@@ -1,6 +1,26 @@
 {
     "projects": [
         {
+            "name": "Perscription Management Tool",
+            "description": "A Jakarta EE program that handles back-end CRUD RESTful API requests for prescription management.",
+            "demo": "",
+            "image": "/images/",
+            "learnMore": {
+                "name": "Perscription Management Tool",
+                "info": "This was a group project for Algonquin College Computer Programming, my role was debugging the back end RESTful API calls.",
+                "links": []
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                "Back-end"
+            ]
+        },
+        {
             "name": "Loom By Light",
             "description": "Arduino Application to assist with manual loom production of custom patterns.",
             "demo": null,
@@ -15,21 +35,19 @@
                     }
                 ]
             },
-            "links": [
-                null
-            ],
+            "links": [],
             "categories": [
                 "Other"
             ]
         },
         {
             "name": "Fuzzy Kittens",
-            "description": "Web forums for cat lovers.",
+            "description": "Web forums for cat lovers. Built in PHP",
             "demo": null,
             "image": "/images/fuzzy-kittens-login.png",
             "learnMore": {
                 "name": "Fuzzy Kittens",
-                "info": "Fuzzy Kittens was a group project for Algonquin College Computer Programming. I was the group leader and developed all of the back end, enabling CRUD operations for a message board. The back end was written in PHP.",
+                "info": "Fuzzy Kittens was a group project for Algonquin College Computer Programming. I was the group leader and developed all of the back end, enabling CRUD operations for a message board. The back end was written in PHP, the front-end was written in HTML, CSS, and JavaScript.",
                 "links": [
                     {
                         "name": "GitHub",
@@ -46,12 +64,12 @@
         },
         {
             "name": "Science of Realms",
-            "description": "An award winning platformer game ",
+            "description": "An award winning platformer game built in Godot and GDScript.",
             "demo": "https://tarsin.itch.io/scienceofrealms",
             "image": "/images/science-of-realms-cover-image2.png",
             "learnMore": {
                 "name": "Science of Realms",
-                "info": "Find your way home by teleporting between realms, but beware of traps and enemies. This Game Jam entry was developed in Godot and won an award for its excellent artwork. I was a developer on the 6 person team.",
+                "info": "Find your way home by teleporting between realms, but beware of traps and enemies. This Game Jam entry was developed in Godot by a team of 6 and won an award for its excellent artwork.",
                 "links": [
                     {
                         "name": "GitHub",
@@ -97,6 +115,233 @@
             "categories": [
                 "Front-end",
                 "Back-end"
+            ]
+        },
+        {
+            "name": "Message Board",
+            "description": "App allows users to post, edit, and delete messages. Uses Laravel and MySQL for back-end, with integrated React front-end.",
+            "demo": "https://demo1.luke-j.com/",
+            "image": "images/full-stack-inertia.png",
+            "learnMore": {
+                "name": "Message Board",
+                "info": "This message board features user authentication for CRUD operations, including user ownership of posts.",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/tjjoris/demo1-react-laravel"
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                "Front-end",
+                "Back-end"
+            ]
+        },
+        {
+            "name": "Otherworldly Relics",
+            "description": "A puzzle based game built using Unity and C#.",
+            "demo": "https://tarsin.itch.io/otherworldly-relics",
+            "image": "/images/otherworldly-relics-get-em.png",
+            "learnMore": {
+                "name": "Otherworldly Relics",
+                "info": "A Game Jam entry by a team of 3. A very short prototype of an in development hex tile puzzle game involving a devious occult plot, a gumshoe who will not put up with their shenanigans and multiple dimensions colliding in on itself!",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/Tars1n/GameJam-2023April"
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                "Top Games"
+            ]
+        },
+        {
+            "name": "Loop Destroyer",
+            "description": "A clicker game built in React and TypeScript.",
+            "demo": "https://tjjoris.itch.io/loop-destroyer",
+            "image": "/images/Loop-destroyer.png",
+            "learnMore": {
+                "name": "Loop Destroyer",
+                "info": "A Game Jam entry by a team of 3. Click the ball of elastics to break loops and gain points.  Buy upgrades for automatic loop breaking.  Higher tier upgrades break more loops per second but cost more.",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/tjjoris/Loop_Clicker"
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                "Top Games",
+                "Front-end"
+            ]
+        },
+        {
+            "name": "Spacelane Sweeper",
+            "description": "Clear the space lanes of debris in this 2D newtonian space sim, developed in Unity and C#.",
+            "demo": "https://tarsin.itch.io/spacelane-sweeper",
+            "image": "images/space-lane-sweeper-cover-image.png",
+            "learnMore": {
+                "name": "Spacelane Sweeper",
+                "info": "This Game Jam entry features multiple tools for destroying debris, and a complex physics system.",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": ""
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                "Top Games"
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "demo": "",
+            "image": "/images/",
+            "learnMore": {
+                "name": "",
+                "info": "",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": ""
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                ""
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "demo": "",
+            "image": "/images/",
+            "learnMore": {
+                "name": "",
+                "info": "",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": ""
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                ""
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "demo": "",
+            "image": "/images/",
+            "learnMore": {
+                "name": "",
+                "info": "",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": ""
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                ""
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "demo": "",
+            "image": "/images/",
+            "learnMore": {
+                "name": "",
+                "info": "",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": ""
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                ""
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "demo": "",
+            "image": "/images/",
+            "learnMore": {
+                "name": "",
+                "info": "",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": ""
+                    }
+                ]
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                ""
             ]
         },
         {

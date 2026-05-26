@@ -37,13 +37,17 @@ export default function Portfolio() {
                 filteredProjects.map((project, index) => {
                     return (
                         < Project
+                            key={index}
                             imageUrl={project.image}
                             title={project.name}
                             description={project.description}
                             DemoButton={
                                 project.demo
                                     ? () =>
-                                        <ActionRoundedButton text="Demo" action={() => openLinkInNewTab(project.demo)} />
+                                        <ActionRoundedButton
+                                            key={index}
+                                            text="Demo"
+                                            action={() => openLinkInNewTab(project.demo)} />
                                     : null
                             }
                             backgroundColor={backgroundColours[index % backgroundColours.length]}
