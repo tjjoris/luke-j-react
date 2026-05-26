@@ -4,7 +4,7 @@
             "name": "Perscription Management Tool",
             "description": "A Jakarta EE program that handles back-end CRUD RESTful API requests for prescription management.",
             "demo": "",
-            "image": "/images/",
+            "image": "images/Jakarta-EE-icon.png",
             "learnMore": {
                 "name": "Perscription Management Tool",
                 "info": "This was a group project for Algonquin College Computer Programming, my role was debugging the back end RESTful API calls.",

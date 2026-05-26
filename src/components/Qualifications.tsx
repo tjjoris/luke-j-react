@@ -22,9 +22,13 @@ export default function Qualifications() {
             <p>With a Strong set of attributes, I would make an excellent asset to any software or web company.</p>
             <div className="qualifications-grid" >
                 {
-                    qualifications.map((qualification) => {
+                    qualifications.map((qualification, index) => {
                         return (
-                            <Qualification name={qualification.name} description={qualification.description} iconUrl={qualification.qualificationIcon} />
+                            <Qualification
+                                key={index}
+                                name={qualification.name}
+                                description={qualification.description}
+                                iconUrl={qualification.qualificationIcon} />
                         )
                     })
                 }
