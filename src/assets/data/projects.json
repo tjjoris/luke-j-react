@@ -1,26 +1,6 @@
 {
     "projects": [
         {
-            "name": "Perscription Management Tool",
-            "description": "A Jakarta EE program that handles back-end CRUD RESTful API requests for prescription management.",
-            "demo": "",
-            "image": "images/Jakarta-EE-icon.png",
-            "learnMore": {
-                "name": "Perscription Management Tool",
-                "info": "This was a group project for Algonquin College Computer Programming, my role was debugging the back end RESTful API calls.",
-                "links": []
-            },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
-            "categories": [
-                "Back-end"
-            ]
-        },
-        {
             "name": "Loom By Light",
             "description": "Arduino Application to assist with manual loom production of custom patterns.",
             "demo": null,
@@ -245,19 +225,14 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Route Finder",
+            "description": "Web app for finding routes between two locations, and storing them in a database to minimize google maps API calls. Back-end built in PHP and MongoDB.",
             "demo": "",
-            "image": "/images/",
+            "image": "images/one-stop-transpo.png",
             "learnMore": {
-                "name": "",
-                "info": "",
-                "links": [
-                    {
-                        "name": "GitHub",
-                        "url": ""
-                    }
-                ]
+                "name": "Route Finder",
+                "info": "This was a group project for Algonquin College Computer Programming. I was in charge of developing the back-end business logic in PHP, including google maps API calls.  The front-end was developed in HTML, CSS, and JavaScript.",
+                "links": []
             },
             "links": [
                 {
@@ -266,7 +241,27 @@
                 }
             ],
             "categories": [
-                ""
+                "Back-end"
+            ]
+        },
+        {
+            "name": "Perscription Management Tool",
+            "description": "A Jakarta EE program that handles back-end CRUD RESTful API requests for prescription management.",
+            "demo": "",
+            "image": "images/Jakarta-EE-icon.png",
+            "learnMore": {
+                "name": "Perscription Management Tool",
+                "info": "This was a group project for Algonquin College Computer Programming, my role was debugging the back end RESTful API calls.",
+                "links": []
+            },
+            "links": [
+                {
+                    "name": "Demo",
+                    "url": ""
+                }
+            ],
+            "categories": [
+                "Back-end"
             ]
         },
         {
