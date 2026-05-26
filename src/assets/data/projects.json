@@ -15,7 +15,6 @@
                     }
                 ]
             },
-            "links": [],
             "categories": [
                 "Other"
             ]
@@ -35,9 +34,6 @@
                     }
                 ]
             },
-            "links": [
-                null
-            ],
             "categories": [
                 "Back-end"
             ]
@@ -57,12 +53,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": "https://tarsin.itch.io/scienceofrealms"
-                }
-            ],
             "categories": [
                 "Top Games"
             ]
@@ -86,12 +76,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": "https://demo2-front-end.luke-j.com/"
-                }
-            ],
             "categories": [
                 "Front-end",
                 "Back-end"
@@ -112,12 +96,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 "Front-end",
                 "Back-end"
@@ -138,12 +116,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 "Top Games"
             ]
@@ -163,12 +135,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 "Top Games",
                 "Front-end"
@@ -189,12 +155,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 "Top Games"
             ]
@@ -214,12 +174,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 ""
             ]
@@ -234,12 +188,6 @@
                 "info": "This was a group project for Algonquin College Computer Programming. I was in charge of developing the back-end business logic in PHP, including google maps API calls.  The front-end was developed in HTML, CSS, and JavaScript.",
                 "links": []
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 "Back-end"
             ]
@@ -254,12 +202,6 @@
                 "info": "This was a group project for Algonquin College Computer Programming, my role was debugging the back end RESTful API calls.",
                 "links": []
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 "Back-end"
             ]
@@ -279,12 +221,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 ""
             ]
@@ -304,12 +240,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 ""
             ]
@@ -329,12 +259,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 ""
             ]
@@ -354,12 +278,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 ""
             ]
@@ -379,12 +297,6 @@
                     }
                 ]
             },
-            "links": [
-                {
-                    "name": "Demo",
-                    "url": ""
-                }
-            ],
             "categories": [
                 ""
             ]
