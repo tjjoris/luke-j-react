@@ -15,8 +15,14 @@
     font-size: 1rem;
 }
 
-.project-selected {
+.select-bar--project-selected {
     height: 4px;
     background-color: white;
-    transition: left 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.select-bar--project-unselected {
+    height: 4px;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
 }

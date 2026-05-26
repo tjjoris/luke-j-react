@@ -6,8 +6,7 @@ export default function ProjectCategory({ name, setCategory, selected }: { name:
         <>
             <button className="project-category" onClick={() => setCategory(name)}>
                 {name}
-
-                {isSelected && <ProjectSelected />}
+                <ProjectSelected selected={isSelected} />
             </button>
         </>
     )
