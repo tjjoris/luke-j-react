@@ -1,6 +1,25 @@
 {
     "projects": [
         {
+            "name": "luke-j.com",
+            "description": "Personal portfolio website built in React and TypeScript.",
+            "demo": "https://luke-j.com",
+            "image": "/images/luke-j.png",
+            "learnMore": {
+                "name": "luke-j.com",
+                "info": "Stores website data as a JSON, and dynamically generates the Single Page Application using React hooks.",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/tjjoris/luke-j-react"
+                    }
+                ]
+            },
+            "categories": [
+                "Front-end"
+            ]
+        },
+        {
             "name": "Loom By Light",
             "description": "Arduino Application to assist with manual loom production of custom patterns.",
             "demo": null,
@@ -265,12 +284,12 @@
             },
             "categories": [
                 "Top Games",
-                "Experimental Games"
+                "Prototypes"
             ]
         },
         {
             "name": "Spell Shields Linear",
-            "description": "A 2D game prototype built in React and TypeScript.",
+            "description": "A 2D game involving controlling range, and building units. React and TypeScript.",
             "demo": "https://rechrysalis.com/SpellShieldsLinear/V1/",
             "image": "images/spell-shields-linear.png",
             "learnMore": {
@@ -284,7 +303,31 @@
                 ]
             },
             "categories": [
-                "Experimental Games"
+                "Prototypes",
+                "Front-end"
+            ]
+        },
+        {
+            "name": "Rechrysalis",
+            "description": "A 2D game involving moving a hero unit, and building follower units to destory enemies. Buit in Unity and C#",
+            "demo": "https://rechrysalis.com/V30014/",
+            "image": "public/images/rechrysalis-screenshot.jpg",
+            "learnMore": {
+                "name": "Rechrysalis",
+                "info": "This was my passion project for 3 years before going to college. It involved many iterations and scope creep. I learned many lessons through it's development, and have applied them to more recent projects.",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/tjjoris/Rechrysalis-V3"
+                    },
+                    {
+                        "name": "How to Play",
+                        "url": "https://rechrysalis.com/V30005/HowToPlay/"
+                    }
+                ]
+            },
+            "categories": [
+                "Prototypes"
             ]
         },
         {

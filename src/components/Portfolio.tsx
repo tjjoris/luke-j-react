@@ -7,7 +7,7 @@ import { openLinkInNewTab } from "../functions/openLinkInNewTab";
 
 export default function Portfolio() {
 
-    const [category, setCategory] = useState("React/Front-end");
+    const [category, setCategory] = useState("Front-end");
     const filteredProjects = projectsJson.projects.filter((project) =>
         project.categories.includes(category));
     const backgroundColours: string[] = ["rgb(80, 80, 178)", "rgb(76, 76, 179)", "rgb(72, 72, 160)"]

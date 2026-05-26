@@ -6,7 +6,7 @@ export default function ProjectBar({ setCategory }: { setCategory: (category: st
             <ProjectCategory name="Front-end" setCategory={setCategory} />
             <ProjectCategory name="Back-end" setCategory={setCategory} />
             <ProjectCategory name="Top Games" setCategory={setCategory} />
-            <ProjectCategory name="Experimental Games" setCategory={setCategory} />
+            <ProjectCategory name="Prototypes" setCategory={setCategory} />
             <ProjectCategory name="Other" setCategory={setCategory} />
 
         </div>
