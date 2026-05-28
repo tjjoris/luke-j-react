@@ -1,25 +1,6 @@
 {
     "projects": [
         {
-            "name": "luke-j.com",
-            "description": "Personal portfolio website built in React and TypeScript.",
-            "demo": "https://luke-j.com",
-            "image": "/images/luke-j.png",
-            "learnMore": {
-                "name": "luke-j.com",
-                "info": "Stores website data as a JSON, and dynamically generates the Single Page Application using React hooks.",
-                "links": [
-                    {
-                        "name": "GitHub",
-                        "url": "https://github.com/tjjoris/luke-j-react"
-                    }
-                ]
-            },
-            "categories": [
-                "Front-end"
-            ]
-        },
-        {
             "name": "Loom By Light",
             "description": "Arduino Application to assist with manual loom production of custom patterns.",
             "demo": null,
@@ -269,7 +250,7 @@
         },
         {
             "name": "3D Space Sim",
-            "description": "A browser based mobile 3D space sim game currently in active development. Built using Three.js, React, and TypeScript.",
+            "description": "A browser based 3D space sim game currently in active development, best experienced on a mobile device. Built using Three.js, React, and TypeScript.",
             "demo": "https://rechrysalis.com/three/TypeScript-space-sim/",
             "image": "images/Three_space_sim.png",
             "learnMore": {
