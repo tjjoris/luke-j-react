@@ -19,7 +19,7 @@
     flex-direction: row;
     height: 40dvh;
     overflow: hidden;
-
+    padding: 1rem;
 }
 
 .project-info {
@@ -41,6 +41,7 @@
     object-position: center;
     flex-shrink: 0;
     display: block;
+    border-radius: 0.1rem;
 }
 
 @media (max-width: 768px) {
