@@ -4,10 +4,13 @@ export default function ProjectCategory({ name, setCategory, selected }: { name:
     const isSelected = selected === name;
     return (
         <>
-            <button className="project-category" onClick={() => setCategory(name)}>
-                {name}
+            <div>
+                <button className="project-category" onClick={() => setCategory(name)}>
+                    {name}
+                </button>
                 <ProjectSelected selected={isSelected} />
-            </button>
+            </div>
+
         </>
     )
 }

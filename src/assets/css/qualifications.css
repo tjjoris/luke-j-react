@@ -44,3 +44,9 @@
     border-radius: 50%;
     box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+    .qualifications-grid {
+        grid-template-columns: auto;
+    }
+}
