@@ -7,6 +7,7 @@ import Qualifications from "./Qualifications";
 import { useRef, useState, useEffect } from "react";
 import { PopupContext } from "../contexts/popupContext";
 import { type LearnMore } from "../types/learnMore";
+import ScrollObserver from "./ScrollObserver";
 
 export default function Layout() {
 
@@ -40,6 +41,7 @@ export default function Layout() {
                 <Portfolio />
                 <Qualifications />
                 <Contact />
+		<ScrollObserver />
             </PopupContext.Provider >
         </>
     )
