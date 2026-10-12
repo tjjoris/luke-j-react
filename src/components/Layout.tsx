@@ -37,11 +37,18 @@ export default function Layout() {
                     </div>
                 )}
                 <MainNavBar />
-                <AboutMe />
-                <Portfolio />
-                <Qualifications />
-                <Contact />
-		<ScrollObserver />
+		<ScrollObserver >
+                	<AboutMe />
+		</ScrollObserver >
+		<ScrollObserver >
+                	<Portfolio />
+		</ScrollObserver >
+		<ScrollObserver >
+                	<Qualifications />
+		</ScrollObserver >
+		<ScrollObserver >
+                	<Contact />
+		</ScrollObserver >
             </PopupContext.Provider >
         </>
     )

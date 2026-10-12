@@ -1,5 +1,11 @@
+import type { ReactNode } from "react";
 import { useInView } from "react-intersection-observer";
-export default function ScrollObserver() {
+
+//this is the type for the props, which contains children of type react nodes.
+type WrapperProps = {
+	children: ReactNode;
+}
+export default function ScrollObserver({ children }:WrapperProps) {
 
   const { ref, inView, entry } = useInView({
     /* Optional options */
@@ -10,6 +16,7 @@ export default function ScrollObserver() {
   return (
     <div ref={ref}>
       <h2>{`Header inside viewport ${inView}.`}</h2>
+      { children }
     </div>
   );
 };
