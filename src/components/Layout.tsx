@@ -13,9 +13,6 @@ export default function Layout() {
 	//array of strings storing category names
 	const categoryNames: string[] = ["about-me", "portfolio", "qualifications", "contact"];
 
-	//make a type for the category names
-	type CategoryName = typeof categoryNames[number];
-
 	// state for tracking what category is currently selected
     const [selectedCategory, setSelectedCategory] = useState<string>("about-me");
 
@@ -25,7 +22,7 @@ export default function Layout() {
 //const [selectedCategoryBoolArray, setSelectCategoryBoolArray] = useState<Record<CategoryName, boolean>>({"about-me": false, "portfolio": false, [categoryNames[2]] : false, [categoryNames[3]]: false} );
 
 //map all the records basing the key on the array of categories and set the value to false.
-const [selectedCategoryBoolArray, setSelectCategoryBoolArray] = useState<Record<string, boolean>>  (Object.fromEntries(categoryNames.map(categoryName => [categoryName, false]);
+const [selectedCategoryBoolArray, setSelectCategoryBoolArray] = useState<Record<string, boolean>>  (Object.fromEntries(categoryNames.map(categoryName => [categoryName, false])));
 
 
 	//check which category is in the viewport. do this when a viewport observer has changed. this is based on the one which has just changed, because if the changed one is false, it gets the next or previous that is true and sets it to that. if it is true, it changes it to that.
