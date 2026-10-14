@@ -23,8 +23,8 @@ export default function Layout() {
 
 
 	//check which category is in the viewport. do this when a viewport observer has changed. this is based on the one which has just changed, because if the changed one is false, it gets the next or previous that is true and sets it to that. if it is true, it changes it to that.
-    function checkWhichViewportIsInView (viewportChanged: string, value: boolean) {
-    	if (value == true) {
+    function checkWhichViewportIsInView (viewportChanged: CategoryName, value: boolean) {
+    	if (value) {
 		alert(viewportChanged);
 	}
     }
@@ -58,28 +58,28 @@ export default function Layout() {
 		<ScrollObserver 
 		categoryName={categoryNames[0] }
 		setSelectCategoryBoolArray={checkWhichViewportIsInView}
-		thresholdValue={1}
+		thresholdValue={0.1}
 		> 
                 	<AboutMe />
 		</ScrollObserver >
 		<ScrollObserver 
 			categoryName={categoryNames[1]}
 			setSelectCategoryBoolArray={checkWhichViewportIsInView}
-			thresholdValue={1}
+			thresholdValue={0.1}
 		>
                 	<Portfolio />
 		</ScrollObserver >
 		<ScrollObserver 
 			categoryName={categoryNames[2]}
 			setSelectCategoryBoolArray={checkWhichViewportIsInView}
-			thresholdValue={1}
+			thresholdValue={0.1}
 		>
                 	<Qualifications />
 		</ScrollObserver >
 		<ScrollObserver 
 			categoryName={categoryNames[3]}
 			setSelectCategoryBoolArray={checkWhichViewportIsInView}
-			thresholdValue={1}
+			thresholdValue={0.1}
 
 		>
                 	<Contact />

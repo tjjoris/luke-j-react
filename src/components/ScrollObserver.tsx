@@ -13,23 +13,19 @@ type WrapperProps = {
 
 //scroll observer uses useInView to track if the element is visible in the viewport. inView is the boolean value of if it's in view.
 export default function ScrollObserver({ children, categoryName, setSelectCategoryBoolArray, thresholdValue }:WrapperProps) {
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     /* Optional options */
     threshold: thresholdValue,
   });
 
-  //useEffect to trigger when inView changes ( the browser scrolls the div into view.
+  // Notify the parent whenever this section enters or leaves the viewport.
   useEffect(() => {
-	  //call the function in the parent passing it the category name of this component and if the in view is true or false.
-	setSelectCategoryBoolArray(categoryName, inView);
-  }, [inView]);
+    setSelectCategoryBoolArray(categoryName, inView);
+  }, [categoryName, inView, setSelectCategoryBoolArray]);
 
-  entry;
   return (
     <div ref={ref}>
-      <h2>{`Header inside viewport ${inView}.`}</h2>
       { children }
-      <h2>{`Header inside viewport ${inView}.`}</h2>
     </div>
   );
 };
