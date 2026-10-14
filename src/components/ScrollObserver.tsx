@@ -7,7 +7,7 @@ import type { CategoryName } from "../types/categoryName";
 type WrapperProps = {
 	children: ReactNode;
 	categoryName: CategoryName;
-	setSelectCategoryBoolArray: (categoryName: CategoryName, value: boolean) => {};
+	setSelectCategoryBoolArray: (categoryName: CategoryName, value: boolean) => void;
 	thresholdValue: number;
 }
 

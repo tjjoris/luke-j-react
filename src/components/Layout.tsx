@@ -14,18 +14,19 @@ import type { CategoryName } from "../types/categoryName";
 export default function Layout() {
 
 	// state for tracking what category is currently selected
-    const [selectedCategory, setSelectedCategory] = useState<string>("about-me");
+    //const [selectedCategory, setSelectedCategory] = useState<string>("about-me");
 
     //state array for boolean categories
 	//TODO:	this should be a useRef not useState
 //map all the records basing the key on the array of categories and set the value to false.
-const [selectedCategoryBoolArray, setSelectCategoryBoolArray] = useState<Record<CategoryName, boolean>>  (Object.fromEntries(categoryNames.map(categoryName => [categoryName, false])));
+//const [selectedCategoryBoolArray, setSelectCategoryBoolArray] = useState<Record<CategoryName, boolean>>  (Object.fromEntries(categoryNames.map(categoryName => [categoryName, false])));
 
 
 	//check which category is in the viewport. do this when a viewport observer has changed. this is based on the one which has just changed, because if the changed one is false, it gets the next or previous that is true and sets it to that. if it is true, it changes it to that.
-    function checkWhichViewportIsInView(viewportChanged: string, value: boolean) {
+    function checkWhichViewportIsInView (viewportChanged: string, value: boolean) {
     	if (value == true) {
 		alert(viewportChanged);
+	}
     }
 
     useEffect(() => {
@@ -56,18 +57,31 @@ const [selectedCategoryBoolArray, setSelectCategoryBoolArray] = useState<Record<
                 <MainNavBar />
 		<ScrollObserver 
 		categoryName={categoryNames[0] }
-		setSelectCategoryBoolArray=checkWhichVeiwportIsInView 
+		setSelectCategoryBoolArray={checkWhichViewportIsInView}
 		thresholdValue={1}
 		> 
                 	<AboutMe />
 		</ScrollObserver >
-		<ScrollObserver >
+		<ScrollObserver 
+			categoryName={categoryNames[1]}
+			setSelectCategoryBoolArray={checkWhichViewportIsInView}
+			thresholdValue={1}
+		>
                 	<Portfolio />
 		</ScrollObserver >
-		<ScrollObserver >
+		<ScrollObserver 
+			categoryName={categoryNames[2]}
+			setSelectCategoryBoolArray={checkWhichViewportIsInView}
+			thresholdValue={1}
+		>
                 	<Qualifications />
 		</ScrollObserver >
-		<ScrollObserver >
+		<ScrollObserver 
+			categoryName={categoryNames[3]}
+			setSelectCategoryBoolArray={checkWhichViewportIsInView}
+			thresholdValue={1}
+
+		>
                 	<Contact />
 		</ScrollObserver >
             </PopupContext.Provider >
