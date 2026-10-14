@@ -53,7 +53,11 @@ const [selectedCategoryBoolArray, setSelectCategoryBoolArray] = useState<Record<
                     </div>
                 )}
                 <MainNavBar />
-		<ScrollObserver >
+		<ScrollObserver 
+		categoryName={categoryNames[0]}
+		setSelectCategoryBoolArray=checkWhichVeiwportIsInView()
+		thresholdValue={1}
+		> 
                 	<AboutMe />
 		</ScrollObserver >
 		<ScrollObserver >
