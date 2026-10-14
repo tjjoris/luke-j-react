@@ -10,18 +10,29 @@ import { type LearnMore } from "../types/learnMore";
 import ScrollObserver from "./ScrollObserver";
 
 export default function Layout() {
-	//array for all functions to check if category is 
-	let trueCategoriesCheckers = [];
+	//array of strings storing category names
+	const categoryNames: string[] = ["about-me", "portfolio", "qualifications", "contact"];
+
+	//make a type for the category names
+	type CategoryName = typeof categoryNames[number];
 
 	// state for tracking what category is currently selected
     const [selectedCategory, setSelectedCategory] = useState<string>("about-me");
 
     //state array for boolean categories
-    const [selectedCategoryBoolArray, setSelectCategoryBoolArray] = useState<boolean[]>([false, false, false, false]);
+	//TODO:	this should be a useRef not useState
+    //TODO: use categoryNames array for the key names instead of hard coded strings.
+//const [selectedCategoryBoolArray, setSelectCategoryBoolArray] = useState<Record<CategoryName, boolean>>({"about-me": false, "portfolio": false, [categoryNames[2]] : false, [categoryNames[3]]: false} );
 
-    //function for checking if category is set to true when one is set to false
-    function checkWhichCatergoyrIsTrue() {
+//map all the records basing the key on the array of categories and set the value to false.
+const [selectedCategoryBoolArray, setSelectCategoryBoolArray] = useState<Record<string, boolean>>  (Object.fromEntries(categoryNames.map(categoryName => [categoryName, false]);
+
+
+	//check which category is in the viewport. do this when a viewport observer has changed. this is based on the one which has just changed, because if the changed one is false, it gets the next or previous that is true and sets it to that. if it is true, it changes it to that.
+    function checkWhichVeiwportIsInView(viewportChanged: string, value: boolean) {
 	
+    }
+
     }
 
     useEffect(() => {
