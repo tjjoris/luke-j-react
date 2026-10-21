@@ -35,7 +35,7 @@ function setCategoryBooleanRefValue(key:CategoryName, value: boolean) {
     function checkWhichViewportIsInView (viewportChanged: CategoryName, value: boolean) {
 	    	setCategoryBooleanRefValue(viewportChanged, value);
 		//alert(viewportChanged);
-		console.log("viewport ", viewportChanged, " value ", value);
+		//console.log("viewport ", viewportChanged, " value ", value);
     	if (value) {
 		setSelectedCategory(viewportChanged);
 	}

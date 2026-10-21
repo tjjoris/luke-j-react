@@ -16,3 +16,14 @@
     color: rgb(183, 168, 214);
     font-size: 1.2rem;
 }
+
+@media (max-height: 300px) {
+	.about-me {
+		background-color: rgb(96, 63, 163);
+    		margin: 0;
+    		box-sizing: border-box;
+    		height: 100dvh;
+		padding: 5rem;
+	}
+}
+

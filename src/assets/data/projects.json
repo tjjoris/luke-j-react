@@ -26,7 +26,7 @@
             "image": "/images/fuzzy-kittens-login.png",
             "learnMore": {
                 "name": "Fuzzy Kittens",
-                "info": "Fuzzy Kittens was a group project for Algonquin College Computer Programming. I was the group leader and developed all of the back end, enabling CRUD operations for a message board. The back end was written in PHP, the front-end was written in HTML, CSS, and JavaScript.",
+                "info": "Fuzzy Kittens was a group project for Algonquin College Computer Programming. I was the group leader and developed the back end in PHP, enabling CRUD operations for a message board.",
                 "links": [
                     {
                         "name": "GitHub",
@@ -108,7 +108,7 @@
             "image": "/images/otherworldly-relics-get-em.png",
             "learnMore": {
                 "name": "Otherworldly Relics",
-                "info": "A Game Jam entry by a team of 3. A very short prototype of an in development hex tile puzzle game involving a devious occult plot, a gumshoe who will not put up with their shenanigans and multiple dimensions colliding in on itself!",
+                "info": "A Game Jam entry by a team of 3. A short prototype of an in development hex tile puzzle game, involving a devious occult plot, a gumshoe who will not put up with their shenanigans and multiple dimensions colliding in on itself!",
                 "links": [
                     {
                         "name": "GitHub",
@@ -147,7 +147,7 @@
             "image": "images/space-lane-sweeper-cover-image.png",
             "learnMore": {
                 "name": "Spacelane Sweeper",
-                "info": "This Game Jam entry features 2D neutonian physics,multiple tools for destroying debris, and a complex physics system.",
+                "info": "This Game Jam entry features 2D neutonian physics, multiple tools for destroying debris, and a complex physics system.",
                 "links": [
                     {
                         "name": "GitHub",
@@ -199,7 +199,7 @@
             "image": "images/Jakarta-EE-icon.png",
             "learnMore": {
                 "name": "Perscription Management Tool",
-                "info": "This was a group project for Algonquin College Computer Programming, my role was debugging the back end RESTful API calls.",
+                "info": "This was a group project for Algonquin College Computer Programming, my role was debugging the back end RESTful API calls in Java.",
                 "links": []
             },
             "categories": [
@@ -275,7 +275,7 @@
             "image": "images/spell-shields-linear.png",
             "learnMore": {
                 "name": "Spell Shields Linear",
-                "info": "This game was intended to strech my abilities with React, and experiment with some ideas expading upon my previous passion project, \"Rechrysalis\".",
+                "info": "This game was intended to strech my abilities with React, and experiment with some ideas expading upon my previous passion project, \"Rechrysalis\". It uses consistant re-renders, and therefore is not optimal use of React, but I leanred a lot in the process.",
                 "links": [
                     {
                         "name": "GitHub",
