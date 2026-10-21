@@ -1,10 +1,17 @@
 import NavItem from "./NavItem";
 import '../assets/css/nav-bar.css';
-import { useState } from "react";
+import type { Dispatch, SetStateAction } from "react";
 import MainNavBarSelected from "./MainNavBarSelected";
+import type { CategoryName } from "../types/categoryName";
+import { categoryNames } from "../consts/categoryNames";
 
-export default function MainNavBar() {
-    const [selectedCategory, setSelectedCategory] = useState<string>("about-me");
+type mainNavBarProps = {
+	selectedCategory:CategoryName;
+	setSelectedCategory:Dispatch<SetStateAction<CategoryName>>;
+}
+
+export default function MainNavBar({selectedCategory, setSelectedCategory}: mainNavBarProps) {
+   // const [selectedCategory, setSelectedCategory] = useState<string>(categoryNames[0]);
     return (
         <section id="sidebar">
             <div className="mainNavBar">
@@ -14,7 +21,7 @@ export default function MainNavBar() {
                     <NavItem setSelectedCategory={setSelectedCategory} category="qualifications" name="Qualifications" />
                     <NavItem setSelectedCategory={setSelectedCategory} category="contact" name="Contact" />
                 </ul>
-                <MainNavBarSelected category={selectedCategory} />
+                <MainNavBarSelected category={selectedCategory}/>
             </div>
         </section>
     )

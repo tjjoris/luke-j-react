@@ -13,8 +13,9 @@ import type { CategoryName } from "../types/categoryName";
 
 export default function Layout() {
 
-	// state for tracking what category is currently selected
-    //const [selectedCategory, setSelectedCategory] = useState<string>("about-me");
+
+//	state for tracking what category is currently selected
+	const [selectedCategory, setSelectedCategory] = useState<string>(categoryNames[0]);
 
     //state array for boolean categories
 	//TODO:	this should be a useRef not useState
@@ -25,7 +26,8 @@ export default function Layout() {
 	//check which category is in the viewport. do this when a viewport observer has changed. this is based on the one which has just changed, because if the changed one is false, it gets the next or previous that is true and sets it to that. if it is true, it changes it to that.
     function checkWhichViewportIsInView (viewportChanged: CategoryName, value: boolean) {
     	if (value) {
-		alert(viewportChanged);
+		setSelectedCategory(viewportChanged);
+//		alert(viewportChanged);
 	}
     }
 
@@ -54,7 +56,9 @@ export default function Layout() {
                         <Popup learnMore={popup} />
                     </div>
                 )}
-                <MainNavBar />
+                <MainNavBar 
+		selectedCategory={selectedCategory}
+		setSelectedCategory={setSelectedCategory} />
 		<ScrollObserver 
 		categoryName={categoryNames[0] }
 		setSelectCategoryBoolArray={checkWhichViewportIsInView}
