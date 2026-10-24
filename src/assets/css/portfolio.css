@@ -4,6 +4,7 @@
     scroll-margin-top: 3.5rem;
 }
 
+
 .portfolio h3 {
     color: white;
     font-size: 1.8rem;
@@ -20,6 +21,7 @@
     height: 40dvh;
     overflow: hidden;
     padding: 1rem;
+    border: 100 px;
 }
 
 .project-info {
@@ -35,26 +37,36 @@
 }
 
 .project-image {
-    width: 40dvw;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    flex-shrink: 0;
-    display: block;
-    border-radius: 0.1rem;
+	object-fit: cover;
+	object-position: center;
+	flex-shrink: 0;
+	display: block;
+	border-radius: 0.1rem;
+	width: 50dvw;
+	height: 30.9dvw;
+	width: 305px;
+	height:188px;
+	padding: 2rem;
 }
 
 @media (max-width: 768px) {
 
-
-    .project {
-        flex-direction: column;
-        height: auto;
-        padding: 1rem;
+	.project {
+		flex-direction: column;
+		height: auto;
+		padding: 1rem;
     }
 
-    .project-image {
-        width: 100%;
-        height: 40dvh;
-    }
+	.project-image {
+		width: 90dvw;
+		height: 55.6dvw;
+		max-width:305px;
+		max-height:188px;
+		width: 305px;
+		height: 188px;
+		padding: 2rem 2rem 0rem 2rem ;
+	}
+
 }
+
+
