@@ -1,4 +1,5 @@
 import "../assets/css/contact.css";
+import ContactIcon from "./ContactIcon";
 
 export default function Contact() {
     return (
@@ -10,6 +11,7 @@ export default function Contact() {
                 <h4>Email</h4>
                 <a href="mailto:tjjoris@gmail.com">tjjoris@gmail.com</a>
 		<div className="icons" >
+		    <ContactIcon iconPath="icons/white/at-solid-full.svg" link="mailto:tjjoris@gmail.com" />
 		    <a href="mailto:tjjoris@gmail.com" >
 			<img className="icon" src="icons/white/at-solid-full.svg" />
 		    </a>
