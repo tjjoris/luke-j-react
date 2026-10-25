@@ -28,3 +28,9 @@
     width: 50px;
     height: 50px;
 }
+
+.icons {
+    display-type: flex;
+    flex-direction: column;
+    padding: 0;
+}
