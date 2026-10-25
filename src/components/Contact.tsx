@@ -8,8 +8,6 @@ export default function Contact() {
             <p>I'm open to networking, the best way to get in contact is via email.</p>
 
             <div className="contact-info">
-                <h4>Email</h4>
-                <a href="mailto:tjjoris@gmail.com">tjjoris@gmail.com</a>
 		<div className="icons" >
 		    <ContactIcon iconPath="icons/white/at-solid-full.svg" link="mailto:tjjoris@gmail.com" />
 		    <ContactIcon iconPath="icons/white/linkedin-brands-solid-full.svg" link="https://www.linkedin.com/in/luke-johnson-172b25110/" />

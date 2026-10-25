@@ -30,7 +30,8 @@
 }
 
 .icons {
-    display-type: flex;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     padding: 0;
+    gap: 3px;
 }
