@@ -3,15 +3,16 @@ import '../assets/css/nav-bar.css';
 import type { Dispatch, SetStateAction } from "react";
 import MainNavBarSelected from "./MainNavBarSelected";
 import type { CategoryName } from "../types/categoryName";
-import { categoryNames } from "../consts/categoryNames";
 
 type mainNavBarProps = {
 	selectedCategory:CategoryName;
 	setSelectedCategory:Dispatch<SetStateAction<CategoryName>>;
 }
 
+/**
+ *uses selected category and sets the selected category as props, but it's state has been raised.
+ */
 export default function MainNavBar({selectedCategory, setSelectedCategory}: mainNavBarProps) {
-   // const [selectedCategory, setSelectedCategory] = useState<string>(categoryNames[0]);
     return (
         <section id="sidebar">
             <div className="mainNavBar">
