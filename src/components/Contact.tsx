@@ -9,11 +9,13 @@ export default function Contact() {
             <div className="contact-info">
                 <h4>Email</h4>
                 <a href="mailto:tjjoris@gmail.com">tjjoris@gmail.com</a>
-		<div className="icons">
-		    <a href="mailto:tjjoris@gmail.com">
+		<div className="icons" >
+		    <a href="mailto:tjjoris@gmail.com" >
 			<img className="icon" src="icons/white/at-solid-full.svg" />
 		    </a>
-		    <img className="icon" src="icons/white/linkedin-brands-solid-full.svg" />
+		    <a href="https://www.linkedin.com/in/luke-johnson-172b25110/" target="_blank" rel="noopener noreferrer">
+			<img className="icon" src="icons/white/linkedin-brands-solid-full.svg" />
+		    </a>
 		    <img className="icon" src="icons/white/github-brands-solid-full.svg" />
 		</div>
             </div>
