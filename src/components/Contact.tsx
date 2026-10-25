@@ -12,13 +12,8 @@ export default function Contact() {
                 <a href="mailto:tjjoris@gmail.com">tjjoris@gmail.com</a>
 		<div className="icons" >
 		    <ContactIcon iconPath="icons/white/at-solid-full.svg" link="mailto:tjjoris@gmail.com" />
-		    <a href="mailto:tjjoris@gmail.com" >
-			<img className="icon" src="icons/white/at-solid-full.svg" />
-		    </a>
-		    <a href="https://www.linkedin.com/in/luke-johnson-172b25110/" target="_blank" rel="noopener noreferrer">
-			<img className="icon" src="icons/white/linkedin-brands-solid-full.svg" />
-		    </a>
-		    <img className="icon" src="icons/white/github-brands-solid-full.svg" />
+		    <ContactIcon iconPath="icons/white/linkedin-brands-solid-full.svg" link="https://www.linkedin.com/in/luke-johnson-172b25110/" />
+		    <ContactIcon iconPath="icons/white/github-brands-solid-full.svg" link="https://github.com/tjjoris" />
 		</div>
             </div>
         </div>
