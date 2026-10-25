@@ -10,7 +10,7 @@ export default function Contact() {
                 <h4>Email</h4>
                 <a href="mailto:tjjoris@gmail.com">tjjoris@gmail.com</a>
 		<h4>Linkedin</h4>
-		<img src="icons/linkedin-brands-solid-full.svg" />
+		<img className="icon" src="icons/linkedin-brands-solid-full.svg" />
 	<i className="fa-brands fa-linkedin"></i>	
             </div>
         </div>
